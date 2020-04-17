@@ -2,10 +2,10 @@
 if (!ini_get('php_soap')) {
     ini_set('php_soap', '1');
 }
-$lattitude_a = $_POST['lattitude_a'];
-$longitude_a = $_POST['longitude_a'];
-$lattitude_b = $_POST['lattitude_b'];
-$longitude_b = $_POST['longitude_b'];
+$lattitude_a = floatval($_POST['lattitude_a']);
+$longitude_a = floatval($_POST['longitude_a']);
+$lattitude_b = floatval($_POST['lattitude_b']);
+$longitude_b = floatval($_POST['longitude_b']);
 
 use SoapClient;
 $clientSoap = new SoapClient("https://etrs804-distance-constann.herokuapp.com/services/LaDistance?wsdl");
