@@ -6,14 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'IPPhpDoc' => $vendorDir . '/jelix/webservice-helper/lib/soap/IPPhpDoc.class.php',
-    'IPReflectionClass' => $vendorDir . '/jelix/webservice-helper/lib/soap/IPReflectionClass.class.php',
-    'IPReflectionCommentParser' => $vendorDir . '/jelix/webservice-helper/lib/soap/IPReflectionCommentParser.class.php',
-    'IPReflectionMethod' => $vendorDir . '/jelix/webservice-helper/lib/soap/IPReflectionMethod.class.php',
-    'IPReflectionProperty' => $vendorDir . '/jelix/webservice-helper/lib/soap/IPReflectionProperty.class.php',
-    'IPXMLSchema' => $vendorDir . '/jelix/webservice-helper/lib/soap/IPXMLSchema.class.php',
-    'WSDLException' => $vendorDir . '/jelix/webservice-helper/lib/soap/WSDLException.class.php',
-    'WSDLStruct' => $vendorDir . '/jelix/webservice-helper/lib/soap/WSDLStruct.class.php',
-    'WSException' => $vendorDir . '/jelix/webservice-helper/lib/soap/WSException.class.php',
-    'WSHelper' => $vendorDir . '/jelix/webservice-helper/lib/soap/WSHelper.class.php',
 );
