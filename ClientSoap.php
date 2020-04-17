@@ -3,6 +3,7 @@ if (!ini_get('php_soap')) {
     ini_set('php_soap', '1');
 }
 phpinfo();
+use SoapClient;
 //$clientSoap = new SoapClient("https://etrs804-distance-constann.herokuapp.com/services/LaDistance?wsdl");
 //$clientSoap->retourneDistance($a, $b, $c, $d);
 
