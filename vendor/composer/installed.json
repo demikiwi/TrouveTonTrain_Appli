@@ -572,5 +572,115 @@
             "microframework"
         ],
         "abandoned": "symfony/flex"
+    },
+    {
+        "name": "jelix/webservice-helper",
+        "version": "1.5.3",
+        "version_normalized": "1.5.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jelix/webservice-helper.git",
+            "reference": "b5bc655b58b4ade959a8e1ddcbf39a507698e598"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jelix/webservice-helper/zipball/b5bc655b58b4ade959a8e1ddcbf39a507698e598",
+            "reference": "b5bc655b58b4ade959a8e1ddcbf39a507698e598",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.3.*"
+        },
+        "time": "2016-06-16 08:49:57",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "lib/soap/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Laurent Jouanneau",
+                "email": "laurent@jelix.org"
+            },
+            {
+                "name": "David Kingma",
+                "email": "david@jool.nl"
+            },
+            {
+                "name": "Sylvain de Vathaire",
+                "email": "s.de.vathaire@neov.net"
+            }
+        ],
+        "description": "To generate a WSDL content from classes",
+        "homepage": "http://www.jool.nl/jool-tech-zone/webservice-helper/",
+        "keywords": [
+            "generator",
+            "soap",
+            "wsdl"
+        ]
+    },
+    {
+        "name": "jelix/soap-server-module",
+        "version": "v1.7.9",
+        "version_normalized": "1.7.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jelix/soap-server-module.git",
+            "reference": "57dcb169f89590c90381a6368bd539479531d062"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jelix/soap-server-module/zipball/57dcb169f89590c90381a6368bd539479531d062",
+            "reference": "57dcb169f89590c90381a6368bd539479531d062",
+            "shasum": ""
+        },
+        "require": {
+            "jelix/webservice-helper": "^1.5.3"
+        },
+        "conflict": {
+            "jelix/jelix": "<1.7.0-rc.1"
+        },
+        "time": "2019-08-23 09:01:56",
+        "type": "jelix-module",
+        "extra": {
+            "jelix": {
+                "modules": [
+                    "jsoap"
+                ]
+            },
+            "branch-alias": {
+                "dev-master": "1.7.x-dev",
+                "dev-jelix2": "2.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Sylvain de Vathaire"
+            },
+            {
+                "name": "Laurent Jouanneau",
+                "email": "laurent@jelix.org"
+            }
+        ],
+        "description": "module to implement a SOAP server in a Jelix application",
+        "homepage": "http://jelix.org",
+        "keywords": [
+            "soap",
+            "wsdl"
+        ]
     }
 ]

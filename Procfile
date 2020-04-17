@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-nginx --enable-soap
+web: vendor/bin/heroku-php-nginx
